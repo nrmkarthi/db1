@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: raw
+    tables:
+      - name: raw_sales
+
+models:
+  - name: dim_customers
+    description: "Dimension table for customers"
+  - name: dim_products
+    description: "Dimension table for products"
+  - name: dim_date
+    description: "Dimension table for dates"
+  - name: fact_sales
+    description: "Fact table for sales"
